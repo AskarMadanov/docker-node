@@ -9,10 +9,10 @@
     "express": "^4.16.2"
   },
   "scripts": {
-    "test": "node test.js",
+    "test": "mocha ./test.js",
     "start": "node index.js"
   },
   "devDependencies": {
-    "tape": "^4.8.0"
+    "mocha": "6.2.3"
   }
 }

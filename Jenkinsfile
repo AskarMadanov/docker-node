@@ -4,7 +4,7 @@ pipeline {
   stages {   
     stage('Git') {
       steps {
-        git 'https://github.com/AskarMadanov/docker-node.git'
+        git branch: 'main', url: 'https://github.com/AskarMadanov/docker-node.git'
       }
     }
      

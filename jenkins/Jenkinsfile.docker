@@ -1,6 +1,6 @@
 pipeline {
     environment {
-    registry = "askarmadanov/node-app"
+    registry = "nlrcmani/sample-node"
     registryCredential = 'docker-credentials'
     dockerImage = ''
     }
@@ -9,7 +9,7 @@ pipeline {
     stages {
             stage('Cloning our Git') {
                 steps {
-                git 'https://github.com/AskarMadanov/docker-node.git'
+                git 'https://github.com/nlrchudamani/node-js-sample.git'
                 }
             }
 

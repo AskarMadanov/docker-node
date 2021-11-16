@@ -36,5 +36,12 @@ pipeline {
                   sh "docker rmi --force $registry:$BUILD_NUMBER"
                 }
             }
+
+            stage('Deploy to EKS Cluster'){
+                steps{
+                    sh "kubectl apply -f ./k8s"
+                }
+            }
         }
     }
+

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: docker-node-2
+spec:
+  type: LoadBalancer
+  ports: 
+    - port: 80
+      targetPort: 8080
+  selector: 
+    app: docker-node

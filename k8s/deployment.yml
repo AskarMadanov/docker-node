@@ -15,5 +15,5 @@ spec:
       containers: 
         - name: docker-node-container
           image: askarmadanov/node-app:latest
-          port:
+          ports:
             - containerPort: 8080

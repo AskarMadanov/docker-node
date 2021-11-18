@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: docker-node
   template: 
-    metatdata:
+    metadata:
       labels:
         app: docker-node
     spec: 

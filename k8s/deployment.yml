@@ -12,7 +12,7 @@ spec:
       labels:
         app: docker-node
     spec: 
-      contaner: 
+      containers: 
         - name: docker-node-container
           image: askarmadanov/node-app:latest
           port:

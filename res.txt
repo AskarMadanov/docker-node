@@ -1,0 +1,50 @@
+INTERPRETER
+// nodejs programm - runtime env
+// java script - language
+// package manager  : npm
+// server development framework : express
+// server : nginx / apache 
+// file extenstion - .js
+
+// python programm - runtime env
+// python - language 
+// server development framewiork  : django, flask 
+// package manager : pip
+// server : apache , nginx
+// file extenstion  - .py
+
+COMPILER
+// java -> language
+// server development framework : springboot, 
+// server : jboss
+// JRE programm - runtime env
+// JVM (java virtual machine) - programm like OS that manages processes and resources of hardware
+// JDK - develpoment kit for developing java based application
+// package manager  : 
+// file extenstion  - .java
+// compile file extention - .jar
+
+
+// c# - language
+// server development framework : .NET
+// ? - runtime environment 
+// ? - programm like OS that manages processes and resources of hardware
+// ? - develpoment kit for developing java based application
+// compile file extention - .exe
+// package manager  :
+
+// C++ - language
+// server development framework : 
+// ? - runtime environment 
+// ? - programm like OS that manages processes and resources of hardware
+// ? - develpoment kit for developing java based application.
+// compile file extention - .exe
+// package manager  :
+
+// Golang - language
+// server development framework : GO
+// ? - runtime environment 
+// ? - programm like OS that manages processes and resources of hardware
+// ? - develpoment kit for developing java based application.
+// compile file extention - .exe
+// package manager  :

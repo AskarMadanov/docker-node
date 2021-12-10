@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-  res.send('Hello World OScar!')
+  res.send('Hello World Oscar!')
 })
 
 app.get('/version', (req, res) => {
@@ -13,3 +13,4 @@ app.get('/version', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`)
 })
+

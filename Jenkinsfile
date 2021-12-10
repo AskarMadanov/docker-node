@@ -42,6 +42,11 @@ pipeline {
                     sh "kubectl apply -f ./k8s"
                 }
             }
+            stage('Update container name'){
+                steps{
+                    sh "kubectl set image deployment/docker-node docker-node-container=$registry:$BUILD_NUMBER"
+                }
+            }
         }
     }
 

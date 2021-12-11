@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: docker-node
+  name: docker-node-1
 spec:
   replicas: 3
   selector: 

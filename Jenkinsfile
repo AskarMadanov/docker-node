@@ -41,7 +41,11 @@ pipeline {
                   sh "kubectl apply -f ./k8s --namespace docker-node"
                 }
             }
-            
+            stage('Update container name'){
+                steps{
+                    sh "kubectl set image --namespace=docker-node deployment/docker-node-1 docker-node-container=$registry:$BUILD_NUMBER"
+                }
+            }
         }
     }
 

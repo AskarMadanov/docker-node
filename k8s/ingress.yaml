@@ -13,14 +13,14 @@ spec:
         - http:
             paths: 
                 - path: /app1
-                  pathType: prefix
+                  pathType: Prefix
                   backend:
                     service:
                         name: docker-node-1
                         port:
                             number: 80
                 - path: /app2
-                  pathType: prefix
+                  pathType: Prefix
                   backend:
                     service:
                         name: docker-node-2

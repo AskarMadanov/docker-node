@@ -36,7 +36,11 @@ pipeline {
                   sh "docker rmi --force $registry:$BUILD_NUMBER"
                 }
             }
-
+            stage('deploing ingresses') {
+                steps{
+                  sh "kubectl apply -f ./k8s --namespace docker-node"
+                }
+            }
             
         }
     }
